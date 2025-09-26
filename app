@@ -1,0 +1,7 @@
+echo "# my-android-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Agus27712/my-android-app.git
+git push -u origin main 
